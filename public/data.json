@@ -1,0 +1,44 @@
+[
+    {
+        "id": "a11",
+        "month": "Mar",
+        "investment": 100000,
+        "sale": 241,
+        "revenue": 10401
+    },
+    {
+        "id": "b22",
+        "month": "Apr",
+        "investment": 200000,
+        "sale": 423,
+        "revenue": 24500
+    },
+    {
+        "id": "c33",
+        "month": "May",
+        "investment": 500000,
+        "sale": 726,
+        "revenue": 67010
+    },
+    {
+        "id": "d44",
+        "month": "Jun",
+        "investment": 500000,
+        "sale": 529,
+        "revenue": 40405
+    },
+    {
+        "id": "e55",
+        "month": "Jul",
+        "investment": 600000,
+        "sale": 601,
+        "revenue": 50900
+    },
+    {
+        "id": "f66",
+        "month": "Aug",
+        "investment": 700000,
+        "sale": 670,
+        "revenue": 61000
+    }
+]
