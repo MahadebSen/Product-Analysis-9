@@ -4,6 +4,7 @@ const Reviews = () => {
     return (
         <div>
             <p>This is reviews</p>
+            <p>sikdg,vkjhsgdflkgkjbrewkj</p>
         </div>
     );
 };
