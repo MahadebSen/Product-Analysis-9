@@ -2,7 +2,7 @@
 
 ### `Live site link`
 
-link:
+link: "https://funny-pasca-8765c8.netlify.app"
 
 ### `What I have done ?`
 
