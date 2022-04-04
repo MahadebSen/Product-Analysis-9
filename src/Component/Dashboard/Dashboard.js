@@ -10,12 +10,11 @@ const Dashboard = () => {
         .then(res => res.json())
         .then(data => setCharts(data))
     } , []);
-    console.log(charts)
     
     return (
         <div>
             <div>
-                <p>Month wise sale</p>
+                <p className=' font-semibold text-2xl m-8'>Month wise sale</p>
                 <LineChart width={450} height={250} data={charts} margin={{ top: 5, right: 30, left: 20, bottom: 5 }}>
                     <Line type="monotone" dataKey={'sale'} stroke="#8884d8" />
                     <CartesianGrid strokeDasharray="3 3" stroke="black" />
@@ -25,7 +24,7 @@ const Dashboard = () => {
                  </LineChart>
             </div>
             <div>
-                <p>Investment vs Revenue</p>
+                <p className=' font-semibold text-2xl m-8 pb-8'>Investment vs Revenue</p>
                 <BarChart width={450} height={250} data={charts}>
                 <CartesianGrid strokeDasharray="3 3" />
                 <XAxis dataKey="month" />
@@ -36,7 +35,7 @@ const Dashboard = () => {
                 </BarChart>
             </div>
             <div>
-                <p>Investment vs Revenue</p>
+                <p className=' font-semibold text-2xl m-8'>Investment vs Revenue</p>
                 <AreaChart width={450} height={250} data={charts}
                 margin={{ top: 10, right: 30, left: 0, bottom: 0 }}>
                     <defs>
@@ -49,7 +48,7 @@ const Dashboard = () => {
                             <stop offset="95%" stopColor="#82ca9d" stopOpacity={0}/>
                         </linearGradient>
                     </defs>
-                    <XAxis dataKey="name" />
+                    <XAxis dataKey="month" />
                     <YAxis />
                     <CartesianGrid strokeDasharray="3 3" />
                     <Tooltip />
