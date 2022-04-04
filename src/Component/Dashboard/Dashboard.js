@@ -12,7 +12,7 @@ const Dashboard = () => {
     } , []);
     
     return (
-        <div>
+        <div className='m-[80px]'>
             <div>
                 <p className=' font-semibold text-2xl m-8'>Month wise sale</p>
                 <LineChart width={450} height={250} data={charts} margin={{ top: 5, right: 30, left: 20, bottom: 5 }}>
