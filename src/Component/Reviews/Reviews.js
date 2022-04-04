@@ -5,13 +5,11 @@ import Review from '../Review/Review';
 const Reviews = () => {
     const [reviews, setReviews] = useData();
     return (
-        <div>
-            <p>This is reviews</p>
-            <p>{reviews.length}</p>
+        <div className='mt-8'>
             {
                 reviews.map(item => <Review
                     key={item.id}
-                    review={reviews}
+                    data={item}
                 ></Review>)
             }
         </div>
