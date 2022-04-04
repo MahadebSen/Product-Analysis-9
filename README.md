@@ -4,6 +4,13 @@
 
 link:
 
+### `What I have done ?`
+
+- Used React-router.
+- Created a navbar, where all the header parts are there.
+- Created a fakeDB in public folder.
+- and lastly used Re-charts.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
