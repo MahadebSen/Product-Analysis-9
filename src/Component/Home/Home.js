@@ -11,6 +11,7 @@ const Home = () => {
                     <br/> life would be a 
                     <span className='text-rose-600'> mistake</span></q>
                     </p>
+                    <p className=' mt-4 font-semibold'>Quoted by - Friedrich Nietzsche</p>
                     <div>
                         <button className='m-9 py-4 px-8 bg-blue-500 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75 text-xl'>Live Demo</button>
                     </div>
